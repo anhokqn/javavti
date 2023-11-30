@@ -1,21 +1,22 @@
 create database Departmanentmanagment ;
 use Departmanentmanagment ;
+
 create table Department (
-DepartmentID bigint ,
-DepartmentName nvarchar(50) 
+Department_id bigint ,
+Department_name nvarchar(50) 
 );
 
 create table Position (
-PositionID bigint ,
-PositionName nvarchar(50)
+Position_id bigint ,
+Position_name nvarchar(50)
 );
 
 create table Account (
-AccountID bigint ,
+Account_id bigint ,
 Email nvarchar(50),
-Username nvarchar(50),
-FullName nvarchar(50),
-DepartmentID bigint,
-PositionID bigint,
-createDate date
+User_name nvarchar(50),
+Full_name nvarchar(50),
+Department_id bigint,
+Position_id bigint,
+create_date date
 );
