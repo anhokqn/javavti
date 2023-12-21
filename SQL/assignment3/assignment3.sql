@@ -432,6 +432,8 @@ WHERE full_name LIKE 'D%o';
 
 -- question 12
 
+SET SQL_SAFE_UPDATES = 0;
+
 DELETE FROM `Exam`
 WHERE create_date < '2019-12-20';
 
