@@ -2,6 +2,7 @@ import java.time.LocalTime;
 import java.util.Date;
 
 public class Account {
+    public Object gender;
     long id;
 
     String email;

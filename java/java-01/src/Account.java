@@ -19,4 +19,7 @@ public class Account {
     // group1, group2, etc
 
     Date createdDate;
+
+    int salary ;
+
 }
